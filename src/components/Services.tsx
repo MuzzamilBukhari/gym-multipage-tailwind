@@ -9,7 +9,7 @@ const Services = () => {
         </h2>
         
         <div className="flex flex-wrap lg:flex-nowrap -mx-4 -mb-10 -mt-4 gap-6 justify-center">
-          {/* First Row */}
+  
           <div className="bg-black rounded-lg p-4 md:w-1/4 sm:mb-0 mb-6 ring-2 ring-cyan-600 shadow-lg shadow-cyan-600/50 hover:scale-105 transform transition duration-300">
             <div className="rounded-lg h-52 overflow-hidden">
               <img
@@ -42,7 +42,6 @@ const Services = () => {
           </div>
         </div>
 
-        {/* Second Row */}
         <div className="flex flex-wrap lg:flex-nowrap -mx-4 -mb-10 pt-16 -mt-4 gap-6 justify-center">
           <div className="bg-black rounded-lg p-4 md:w-1/4 sm:mb-0 mb-6 ring-2 ring-cyan-600 shadow-lg shadow-cyan-600/50 hover:scale-105 transform transition duration-300">
             <div className="rounded-lg h-52 overflow-hidden">
