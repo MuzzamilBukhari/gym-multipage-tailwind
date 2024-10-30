@@ -6,7 +6,7 @@ const NavLink = ({ name }: { name: string }) => {
     <>
       <Link
         href={""}
-        className="mr-5 hover:text-gray-900 hover:bg-primary rounded-lg duration-200 px-3 py-1"
+        className="mr-5 hover:text-gray-900 hover:bg-cyan-600 rounded-lg duration-200 px-3 py-1"
       >
         {name}
       </Link>
