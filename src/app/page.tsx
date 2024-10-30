@@ -1,5 +1,5 @@
-import HeroSection from "@/components/HeroSection";
-import Services from "@/components/Services";
+import HeroSection from "@/components/hero-section/HeroSection";
+import Services from "@/components/services/Services";
 
 
 export default function Home() {
