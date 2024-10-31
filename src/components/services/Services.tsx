@@ -40,7 +40,7 @@ const Services = () => {
     <section className="bg-neutral-900 text-white body-font">
       <div className="container px-5 py-24 mx-auto">
         <h2 className="text-center text-7xl font-extrabold mb-5 pt-20 pb-20">
-          Our <span className="text-cyan-600">Services</span>
+          Our <span className="text-secondary">Services</span>
         </h2>
 
         <div className="flex flex-wrap mb-10 mt-4 gap-6 justify-center">
