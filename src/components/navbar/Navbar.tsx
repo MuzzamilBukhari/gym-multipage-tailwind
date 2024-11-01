@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import NavLink from "./NavLink";
+import Button from "../Button";
 
 const navItems = [
   {
@@ -28,8 +29,8 @@ const navItems = [
 
 const Navbar = () => {
   return (
-    <header className="text-cyan-500 body-font bg-black">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <header className="text-primary body-font bg-black hidden md:flex ">
+      <div className="container mx-auto flex flex-wrap p-5 items-center">
         <div>
           {/* <Image src={""} alt={""}></Image> */}
           <Link href={"/"} className="ml-3 font-black text-3xl">
@@ -41,11 +42,9 @@ const Navbar = () => {
             <NavLink key={item.id} name={item.name} />
           ))}
         </nav>
-        <button className="inline-flex items-center text-white bg-cyan-600 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 hover:text-cyan-600
-         rounded text-base mt-4 md:mt-0">
+        <Button type="button" className="py-1">
           Join us
-
-        </button>
+        </Button>
       </div>
     </header>
   );
