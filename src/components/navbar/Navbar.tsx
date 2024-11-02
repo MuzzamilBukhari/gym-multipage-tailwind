@@ -29,20 +29,23 @@ const navItems = [
 
 const Navbar = () => {
   return (
-    <header className="text-primary body-font bg-black hidden md:flex ">
+    <header className="text-white body-font bg-black hidden md:flex ">
       <div className="container mx-auto flex flex-wrap p-5 items-center">
-        <div>
+        <div className="text-primary ">
           {/* <Image src={""} alt={""}></Image> */}
-          <Link href={"/"} className="ml-3 font-black text-3xl">
+          <Link href={"/"} className="lg:ml-5 font-black text-3xl">
             <span className="text-white"> Xtreme </span> Fitness
           </Link>
         </div>
-        <nav className="md:ml-auto flex flex-wrap items-center md:gap-4 mt-5 md:mt-0 text-base justify-center">
+        <nav className="md:ml-auto flex items-center gap-2 lg:gap-8 mt-5 md:mt-0 text-base justify-center">
           {navItems.map((item) => (
-            <NavLink key={item.id} name={item.name} />
+            <NavLink slug={item.slug} key={item.id} name={item.name} />
           ))}
         </nav>
-        <Button type="button" className="py-1">
+        <Button
+          type="button"
+          className="py-[2px] ml-3 bg-black border-2 border-none shadow-primary ring-2 ring-primary shadow-md"
+        >
           Join us
         </Button>
       </div>
