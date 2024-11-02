@@ -1,16 +1,16 @@
-import Link from "next/link";
-import React from "react";
+"use client";
 
-const NavLink = ({ name }: { name: string }) => {
+import Link from "next/link";
+import React, { useEffect, useState } from "react";
+
+const NavLink = ({ name, slug }: { name: string; slug: string }) => {
   return (
-    <>
-      <Link
-        href={""}
-        className="mr-5 font-medium hover:text-gray-900 ring-secondary hover:bg-secondary rounded-lg duration-200 px-3 py-1"
-      >
-        {name}
-      </Link>
-    </>
+    <Link
+      href={slug || "/"}
+      className=" text-lg font-medium ring-secondary hover:text-primary hover:underline rounded-lg duration-300 px-3 py-1"
+    >
+      {name}
+    </Link>
   );
 };
 

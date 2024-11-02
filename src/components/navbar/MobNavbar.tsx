@@ -96,7 +96,7 @@ const Navbar = () => {
           }  flex-col items-center gap-2 text-base justify-center absolute top-16 -right-4 bg-black rounded-md p-4`}
         >
           {navItems.map((item) => (
-            <NavLink key={item.id} name={item.name} />
+            <NavLink slug={item.slug} key={item.id} name={item.name} />
           ))}
         </nav>
       </div>

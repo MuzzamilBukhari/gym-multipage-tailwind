@@ -19,7 +19,7 @@ const HeroSection = () => {
             <br />
             laudantium animi vitae consectetur obcaecati
           </p>
-          <Button type={"button"} className="mt-4">
+          <Button type={"button"} className="mt-4 bg-secondary ">
             Join us
           </Button>
         </div>
