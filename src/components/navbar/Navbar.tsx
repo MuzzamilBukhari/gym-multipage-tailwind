@@ -1,8 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import Image from "next/image";
 import NavLink from "./NavLink";
-import Button from "../Button";
+import { Button } from "../";
 
 const navItems = [
   {

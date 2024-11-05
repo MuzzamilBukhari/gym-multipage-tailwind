@@ -1,14 +1,17 @@
-import { Footer, HeroSection, Services } from "@/components/";
-import Contact from "@/components/Contact/Contact";
-import Testimonial from "@/components/Testimonial/Testimonial";
-
+import {
+  Footer,
+  HeroSection,
+  Services,
+  Testimonials,
+  Contact,
+} from "@/components/";
 
 export default function Home() {
   return (
     <>
       <HeroSection />
       <Services />
-      <Testimonial />
+      <Testimonials />
       <Contact />
       <Footer />
     </>
