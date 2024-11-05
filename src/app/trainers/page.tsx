@@ -54,7 +54,7 @@ const page = () => {
             {/* <h3 className=" mb-3">Designer</h3> */}
             <p className="mb-4">Nutrition Coach focused on personalized meal planning for optimal fitness.</p>
             <span className="inline-flex">
-            <a>
+             <a>
               <FaFacebook className="w-6 h-6 hover:text-secondary hover:scale-110 transform transition duration-400"/>
               </a>
               <a className="ml-2">

@@ -1,4 +1,6 @@
-import { HeroSection, Services } from "@/components/";
+import { Footer, HeroSection, Services } from "@/components/";
+import Contact from "@/components/Contact/Contact";
+import Testimonial from "@/components/Testimonial/Testimonial";
 
 
 export default function Home() {
@@ -6,6 +8,9 @@ export default function Home() {
     <>
       <HeroSection />
       <Services />
+      <Testimonial />
+      <Contact />
+      <Footer />
     </>
   );
 }
