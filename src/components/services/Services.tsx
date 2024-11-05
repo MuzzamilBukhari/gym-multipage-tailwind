@@ -1,5 +1,6 @@
 import React from "react";
 import ServiceCard from "./ServiceCard";
+import { SectionTitle } from "..";
 
 const Services = () => {
   const services = [
@@ -45,11 +46,9 @@ const Services = () => {
   return (
     <section className="bg-neutral-900 text-white body-font">
       <div className="container px-5 py-24 mx-auto">
-        <h2 className="text-center text-7xl font-extrabold mb-5 pt-20 pb-20">
-          Our <span className="text-primary underline">Services</span>
-        </h2>
+        <SectionTitle first="Our" second="Services" />
 
-        <div className="flex flex-wrap mb-10 mt-4 gap-6 justify-center">
+        <div className="flex flex-wrap mb-10 mt-28 gap-6 justify-center">
           {services.map((service) => (
             <ServiceCard
               name={service.name}
@@ -61,7 +60,6 @@ const Services = () => {
         </div>
       </div>
     </section>
-    
   );
 };
 
