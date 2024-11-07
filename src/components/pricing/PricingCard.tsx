@@ -1,6 +1,7 @@
 import React from "react";
+import { FaCheck } from "react-icons/fa";
 
-const PricingCard = () => {
+const PricingCard = ({ billingCycle }: { billingCycle: string }) => {
   return (
     <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
       <div className="h-full p-6 rounded-lg border-2 border-primary flex flex-col relative overflow-hidden ring-2 ring-primary shadow-lg shadow-secondary/60 hover:scale-105 transform transition duration-300">
