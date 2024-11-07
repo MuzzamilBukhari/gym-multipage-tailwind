@@ -3,7 +3,7 @@ import { SectionTitle } from "../";
 const Contact = () => {
   return (
     <div>
-      <section className="container text-white bg-black body-font relative">
+      <section className=" text-white bg-black body-font relative">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
             <SectionTitle first="Contact" second="Us" />

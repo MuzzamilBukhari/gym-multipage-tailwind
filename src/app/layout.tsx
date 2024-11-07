@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
 import { Heebo } from "next/font/google";
 import { Navbar, MobNavbar, Footer } from "@/components/";

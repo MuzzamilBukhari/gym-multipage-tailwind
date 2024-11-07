@@ -3,7 +3,7 @@ import { SectionTitle, Trainers } from "@/components";
 const page = () => {
   return (
     <div>
-      <section className="bg-black container body-font mt-20 border-b-2 border-primary">
+      <section className="bg-black  body-font mt-20 text-white border-b-2 border-primary">
         <div className="flex justify-center items-center mx-4 flex-col pt-20">
           <div className=" text-center w-full">
             <SectionTitle first="Our" second="Trainers" />
