@@ -28,11 +28,9 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="container text-white bg-black body-font">
-      <div className="container px-5 py-24 mx-auto">
-        <div className="font-black text-6xl text-center pt-8 flex justify-center">
-          <SectionTitle first="Our" second="Testimonials" />
-        </div>
+    <section className=" text-white bg-black body-font">
+      <div className="container px-5 py-24 mx-auto border border-red-600">
+        <SectionTitle first="Our" second="Testimonials" />
         <p className="lg:w-2/3 mx-auto leading-relaxed text-base mt-2 text-center ">
           Our dedicated trainers are here to help you reach your fitness goals
           with personalized workouts, expert advice, and unwavering support.

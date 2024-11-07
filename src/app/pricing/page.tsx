@@ -1,9 +1,8 @@
-"use client";
-import Pricing from "@/components/pricing/Pricing";
+import { Pricing } from "@/components/";
 
 const page = () => {
   return (
-    <section className="container mt-12 border-b-2 border-primary">
+    <section className=" mt-12 border-b-2 border-primary">
       <Pricing />
     </section>
   );

@@ -9,6 +9,7 @@ import SectionTitle from "./SectionTitle";
 import Button from "./Button";
 import About from "./about/About";
 import Trainers from "./trainers/Trainers";
+import Pricing from "./pricing/Pricing";
 
 export {
   Navbar,
@@ -22,4 +23,5 @@ export {
   Button,
   About,
   Trainers,
+  Pricing,
 };
