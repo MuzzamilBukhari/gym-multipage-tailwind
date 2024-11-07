@@ -5,16 +5,19 @@ import Button from "../Button";
 const HeroSection = () => {
   return (
     <section
-      className="bg-cover bg-center h-screen text-white body-font"
-      style={{ backgroundImage: "url('/images/hero.jpg')" }}
-    >
+    className="bg-contain bg-right-bottom bg-black bg-no-repeat h-screen text-white body-font"
+    style={{
+      backgroundImage: "url('/images/heroo.jpg')",
+    }}
+  >
+  
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:mt-28 md:pl-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font text-6xl sm:text-7xl font-bold ">
+          <h1 className="title-font text-6xl sm:text-7xl font-black ">
             Build Your <br className="hidden lg:inline-block" />
-            Dream Physique
+            <span className="text-primary"> Dream Physique</span>
           </h1>
-          <p className="  font-medium mt-4 leading-relaxed">
+          <p className=" font-normal mt-4 leading-relaxed">
             Lorem ipsum dolor sit, bus earum, aliquam ipsa repellat iusto esse{" "}
             <br />
             laudantium animi vitae consectetur obcaecati

@@ -8,7 +8,7 @@ import Button from "../Button";
 const navItems = [
   { id: 1, name: "Home", slug: "/" },
   { id: 2, name: "About us", slug: "/about" },
-  { id: 3, name: "Classes", slug: "/classes" },
+  { id: 3, name: "Pricing", slug: "/pricing" },
   { id: 4, name: "Trainers", slug: "/trainers" },
 ];
 
@@ -60,7 +60,7 @@ const Navbar = () => {
     //     </div>
     //   </div>
     // </header>
-    <header className="text-primary body-font bg-black flex flex-col md:hidden">
+    <header className="text-primary body-font bg-black flex flex-col md:hidden fixed z-20  w-full ">
       <div className="container mx-auto flex justify-between flex-wrap p-5 items-center">
         <div>
           {/* <Image src={""} alt={""}></Image> */}

@@ -5,4 +5,4 @@ import Services from "./services/Services";
 import Testimonial from "./Testimonial/Testimonial"
 
 
-export { HeroSection, Services, Testimonial, Contact, Footer }
+export { HeroSection, Services, Testimonial, Contact, }

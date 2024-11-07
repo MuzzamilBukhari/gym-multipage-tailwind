@@ -17,8 +17,8 @@ const navItems = [
   },
   {
     id: 3,
-    name: "Classes",
-    slug: "/classes",
+    name: "Pricing",
+    slug: "/pricing",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const navItems = [
 
 const Navbar = () => {
   return (
-    <header className="text-white body-font bg-black hidden md:flex ">
+    <header className="text-white body-font bg-black hidden md:flex fixed z-20 justify-between w-full">
       <div className="container mx-auto flex flex-wrap p-5 items-center">
         <div className="text-primary ">
           {/* <Image src={""} alt={""}></Image> */}
