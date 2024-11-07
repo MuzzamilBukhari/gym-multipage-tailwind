@@ -3,11 +3,11 @@ import { SectionTitle } from "../";
 const Contact = () => {
   return (
     <div>
-      <section className="text-white bg-black body-font relative">
+      <section className="container text-white bg-black body-font relative">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
             <SectionTitle first="Contact" second="Us" />
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+            <p className="lg:w-2/3 mx-auto mt-2 leading-relaxed text-base">
               We’d love to hear from you! Whether you have questions about
               <br /> our services, want to schedule a consultation, or need
               assistance,

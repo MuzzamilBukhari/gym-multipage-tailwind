@@ -7,7 +7,7 @@ import NavLink from "./NavLink";
 const navItems = [
   { id: 1, name: "Home", slug: "/" },
   { id: 2, name: "About us", slug: "/about" },
-  { id: 3, name: "Classes", slug: "/classes" },
+  { id: 3, name: "Pricing", slug: "/pricing" },
   { id: 4, name: "Trainers", slug: "/trainers" },
 ];
 
