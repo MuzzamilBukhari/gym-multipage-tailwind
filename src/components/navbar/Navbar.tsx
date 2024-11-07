@@ -16,8 +16,8 @@ const navItems = [
   },
   {
     id: 3,
-    name: "Classes",
-    slug: "/classes",
+    name: "Pricing",
+    slug: "/pricing",
   },
   {
     id: 4,
@@ -28,7 +28,7 @@ const navItems = [
 
 const Navbar = () => {
   return (
-    <header className="text-white body-font bg-black hidden md:flex ">
+    <header className="text-white body-font bg-black hidden md:flex fixed w-full top-0 left-0 z-10 ">
       <div className="container mx-auto flex flex-wrap p-5 items-center">
         <div className="text-primary ">
           {/* <Image src={""} alt={""}></Image> */}
@@ -43,7 +43,7 @@ const Navbar = () => {
         </nav>
         <Button
           type="button"
-          className="py-[2px] ml-3 bg-black border-2 border-none shadow-primary ring-2 ring-primary shadow-md"
+          className="py-[2px] ml-8 bg-black border-2 border-none shadow-primary ring-2 ring-primary shadow-md"
         >
           Join us
         </Button>

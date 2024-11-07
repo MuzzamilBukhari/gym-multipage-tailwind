@@ -8,12 +8,11 @@ import {
 
 export default function Home() {
   return (
-    <>
+    <div>
       <HeroSection />
       <Services />
       <Testimonials />
       <Contact />
-      <Footer />
-    </>
+    </div>
   );
 }
