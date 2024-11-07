@@ -39,7 +39,7 @@ const Testimonials = () => {
         </p>
         <div className="flex mx-8 mt-16 flex-wrap -m-4">
           {testimonials.map((testimonial) => (
-            <TestimonialCard testimonial={testimonial} />
+            <TestimonialCard testimonial={testimonial} key={testimonial.id} />
           ))}
         </div>
       </div>
