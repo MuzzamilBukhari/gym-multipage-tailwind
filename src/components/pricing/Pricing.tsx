@@ -6,14 +6,10 @@ import PricingCard from "./PricingCard";
 const plans = [
   {
     id: 1,
-    title: "STANDARD",
-    monthlyPrice: "$40",
-    annualPrice: "$400",
-    features: [
-      "Access to all gym equipment",
-      "Group fitness classes",
-      "Personal locker",
-    ],
+    title: "BASIC",
+    monthlyPrice: "$20",
+    annualPrice: "$200",
+    features: ["Access to gym equipment", "Personal locker"],
   },
   {
     id: 2,

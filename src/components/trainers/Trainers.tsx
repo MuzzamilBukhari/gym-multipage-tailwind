@@ -8,7 +8,7 @@ const Trainers = () => {
       name: "Hamza",
       desc:
         "Cardio Trainer dedicated to improving stamina and cardiovascular health.",
-      profile: "/images/Man.jpg",
+      profile: "/images/trainer1.jpg",
       fbLink: "www.facebook.com",
       xLink: "www.x.com",
       instaLink: "www.instagram.com",
@@ -18,17 +18,17 @@ const Trainers = () => {
       name: "Muzzamil",
       desc:
         "Nutrition Coach focused on personalized meal planning for optimal fitness.",
-      profile: "/images/Man.jpg",
+      profile: "/images/trainer2.jpg",
       fbLink: "www.facebook.com",
       xLink: "www.x.com",
       instaLink: "www.instagram.com",
     },
     {
       id: 3,
-      name: "Aliyan",
+      name: "Sara",
       desc:
         " Strength & Conditioning Coach specializing in power and endurance training.",
-      profile: "/images/Man.jpg",
+      profile: "/images/trainer3.jpg",
       fbLink: "www.facebook.com",
       xLink: "www.x.com",
       instaLink: "www.instagram.com",
@@ -38,7 +38,7 @@ const Trainers = () => {
       name: "Huzaifa",
       desc:
         "Mobility & Flexibility Trainer enhancing range of motion and preventing injuries.",
-      profile: "/images/Man.jpg",
+      profile: "/images/trainer4.jpg",
       fbLink: "www.facebook.com",
       xLink: "www.x.com",
       instaLink: "www.instagram.com",

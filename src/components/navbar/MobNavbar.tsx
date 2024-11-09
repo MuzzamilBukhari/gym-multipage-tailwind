@@ -20,7 +20,7 @@ const MobNavbar = () => {
         <div>
           {/* <Image src={""} alt={""}></Image> */}
           <Link href={"/"} className="ml-3 font-black text-2xl">
-            <span className="text-white"> Xtreme </span> Fitness
+            <span className="text-white"> Xtreme</span>Fitness
           </Link>
         </div>
 

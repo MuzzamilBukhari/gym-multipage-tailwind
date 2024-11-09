@@ -6,34 +6,33 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: "HENRY LETHAM",
+      name: "SAMEER AWAN",
       desc:
-        "Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
-      imgSrc: "/images/testemonial.jpg",
+        "Joining this gym has been a game-changer for me! The trainers are knowledgeable, and the support from the community keeps me motivated every day.",
+      imgSrc: "/images/testemonial1.jpg",
     },
     {
       id: 2,
-      name: "HENRY LETHAM",
+      name: "SAAD ALI",
       desc:
-        "Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
-      imgSrc: "/images/testemonial.jpg",
+        "I’ve seen amazing progress in just a few months. The equipment is top-notch, and the atmosphere is always welcoming!",
+      imgSrc: "/images/testemonial2.jpg",
     },
     {
       id: 3,
-      name: "HENRY LETHAM",
+      name: "USAMA KHAN",
       desc:
-        "Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
-      imgSrc: "/images/testemonial.jpg",
+        "This is more than a gym—it's a second home. I've not only achieved my fitness goals but also gained confidence and new friends along the way!",
+      imgSrc: "/images/testemonial3.jpg",
     },
   ];
 
   return (
     <section className=" text-white bg-black body-font">
-      <div className="container px-5 py-24 mx-auto border border-red-600">
+      <div className="container px-5 py-24 mx-auto ">
         <SectionTitle first="Our" second="Testimonials" />
         <p className="lg:w-2/3 mx-auto leading-relaxed text-base mt-2 text-center ">
-          Our dedicated trainers are here to help you reach your fitness goals
-          with personalized workouts, expert advice, and unwavering support.
+          Real Results, Real Stories: See What Our Members Have to Say!
         </p>
         <div className="flex mx-8 mt-16 flex-wrap -m-4">
           {testimonials.map((testimonial) => (

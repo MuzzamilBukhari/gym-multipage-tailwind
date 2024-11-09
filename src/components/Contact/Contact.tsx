@@ -1,5 +1,5 @@
 import React from "react";
-import { SectionTitle } from "../";
+import { Button, SectionTitle } from "../";
 const Contact = () => {
   return (
     <div>
@@ -64,9 +64,12 @@ const Contact = () => {
                 </div>
               </div>
               <div className="p-2 w-full">
-                <button className="flex mx-auto text-white bg-black border-0 py-2 px-8 rounded text-lg font-semibold hover:text-black hover:bg-primary shadow-primary ring-2 ring-primary shadow-md">
+                <Button
+                  type="button"
+                  className="flex mx-auto text-white bg-black border-0 py-2 px-8 rounded text-lg font-semibold  hover:bg-primary shadow-primary ring-2 ring-primary shadow-md"
+                >
                   Submit
-                </button>
+                </Button>
               </div>
             </div>
           </div>
