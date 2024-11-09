@@ -12,8 +12,7 @@ const Footer = () => {
             href={"/"}
           >
             <span className="ml-3 text-xl font-bold">
-              Xterme
-              <span className="text-primary"> Fitness</span>
+              Xtreme<span className="text-primary">Fitness</span>
             </span>
           </Link>
           <p className="text-md text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-primary sm:py-2 sm:mt-0 mt-4">

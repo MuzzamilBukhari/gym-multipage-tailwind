@@ -33,7 +33,7 @@ const Navbar = () => {
         <div className="text-primary ">
           {/* <Image src={""} alt={""}></Image> */}
           <Link href={"/"} className="lg:ml-5 font-black text-3xl">
-            <span className="text-white"> Xtreme </span> Fitness
+            <span className="text-white"> Xtreme</span>Fitness
           </Link>
         </div>
         <nav className="md:ml-auto flex items-center gap-2 lg:gap-8 mt-5 md:mt-0 text-base justify-center">

@@ -19,7 +19,7 @@ const TestimonialCard = ({ testimonial }: { testimonial: Testimonial }) => {
           width={80} // Width in pixels
           height={80} // Height in pixels
         />
-        <p className="leading-relaxed">{desc}</p>
+        <p className="leading-relaxed ">{desc}</p>
         <span className="inline-block h-1 w-10 rounded bg-primary mt-6 mb-4"></span>
         <h2 className="text-white font-medium title-font tracking-wider text-sm">
           {name}

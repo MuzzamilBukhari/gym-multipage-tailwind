@@ -44,7 +44,7 @@ const Services = () => {
   ];
 
   return (
-    <section className=" bg-neutral-900 text-white body-font border border-red-600">
+    <section className=" bg-neutral-900 text-white body-font ">
       <div className="container px-5 py-24 mx-auto">
         <SectionTitle first="Our" second="Services" />
 
