@@ -1,8 +1,8 @@
 "use client";
-
 import Link from "next/link";
 import React, { useState } from "react";
 import NavLink from "./NavLink";
+import { CgGym } from "react-icons/cg";
 
 const navItems = [
   { id: 1, name: "Home", slug: "/" },
@@ -17,9 +17,9 @@ const MobNavbar = () => {
   return (
     <header className="text-primary body-font bg-black flex flex-col md:hidden">
       <div className="container mx-auto flex justify-between flex-wrap p-5 items-center">
-        <div>
-          {/* <Image src={""} alt={""}></Image> */}
-          <Link href={"/"} className="ml-3 font-black text-2xl">
+        <div className="flex justify-center items-center gap-2">
+          <CgGym size={35} />
+          <Link href={"/"} className=" font-black text-2xl">
             <span className="text-white"> Xtreme</span>Fitness
           </Link>
         </div>

@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import NavLink from "./NavLink";
 import { Button } from "../";
+import { CgGym } from "react-icons/cg";
 
 const navItems = [
   {
@@ -30,9 +31,9 @@ const Navbar = () => {
   return (
     <header className="text-white body-font bg-black hidden md:flex fixed w-full top-0 left-0 z-10 ">
       <div className="container mx-auto flex flex-wrap p-5 items-center">
-        <div className="text-primary ">
-          {/* <Image src={""} alt={""}></Image> */}
-          <Link href={"/"} className="lg:ml-5 font-black text-3xl">
+        <div className="text-primary flex justify-center items-center ">
+          <CgGym size={40} />
+          <Link href={"/"} className="ml-2 font-black text-3xl">
             <span className="text-white"> Xtreme</span>Fitness
           </Link>
         </div>
