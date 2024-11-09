@@ -20,16 +20,16 @@ const Footer = () => {
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             <a>
-              <FaFacebook className="w-8 h-8 hover:text-secondary hover:scale-110 transform transition duration-400" />
+              <FaFacebook className="w-5 h-5 hover:text-secondary hover:scale-110 transform transition duration-400" />
             </a>
             <a className="ml-4">
-              <FaSquareXTwitter className="w-8 h-8 hover:text-secondary hover:scale-110 transform transition duration-400" />
+              <FaSquareXTwitter className="w-5 h-5 hover:text-secondary hover:scale-110 transform transition duration-400" />
             </a>
             <a className="ml-4">
-              <FaInstagramSquare className="w-8 h-8 hover:text-secondary  hover:scale-110 transform transition duration-400" />
+              <FaInstagramSquare className="w-5 h-5 hover:text-secondary  hover:scale-110 transform transition duration-400" />
             </a>
             <a className="ml-4">
-              <FaLinkedin className="w-8 h-8 hover:text-secondary  hover:scale-110 transform transition duration-400" />
+              <FaLinkedin className="w-5 h-5 hover:text-secondary  hover:scale-110 transform transition duration-400" />
             </a>
           </span>
         </div>
